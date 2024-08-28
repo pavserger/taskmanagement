@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="" />
+    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +72,18 @@
       <option name="presentableId" value="Default" />
       <updated>1717723019215</updated>
     </task>
+    <task id="LOCAL-00001" summary="280824 Start Taskmanagement">
+      <created>1724815376650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724815376650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="280824 Start Taskmanagement" />
+    <option name="LAST_COMMIT_MESSAGE" value="280824 Start Taskmanagement" />
   </component>
 </project>

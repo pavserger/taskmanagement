@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SearchEngine" />
         <module name="taskmanagement" />
+        <module name="Taskmanagemenet" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SearchEngine" options="-parameters" />
+      <module name="Taskmanagemenet" options="-parameters" />
       <module name="taskmanagement" options="-parameters" />
     </option>
   </component>

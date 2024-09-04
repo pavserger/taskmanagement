@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="03/09/24 no repository in pom and no morphology">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="03/09/24 roly">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/CrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/TaskmanagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/TaskmanagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/RoleReposytory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
   <component name="RunManager">
     <configuration name="Taskmanagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.taskmanagement.Taskmanagement" />
-      <module name="Taskmanagemenet" />
+      <module name="taskmanagement" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.taskmanagement.*" />
@@ -77,8 +82,31 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03/09/24 no repository in pom and no morphology" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/09/24 no repository in pom and no morphology" />
+    <MESSAGE value="03/09/24 roly" />
+    <option name="LAST_COMMIT_MESSAGE" value="03/09/24 roly" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

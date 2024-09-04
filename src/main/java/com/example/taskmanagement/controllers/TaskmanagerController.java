@@ -24,23 +24,7 @@ public class TaskmanagerController {
         this.userRepository= userRepository;
     }
 
- //   @GetMapping("/parcels/")
-/*
-    @GetMapping("/companyList")
-    public ResponseEntity<List<Company>> getCompanyList() {
-        return new ResponseEntity<List<Company>>(crudService.getCompanyList(), HttpStatus.OK);
-    }
 
-    public List<Parcel> list() {
-        Iterable<Parcel> parcelIterable = parcelRepository.findAll();
-
-        List<Parcel> parcels = new ArrayList<>();
-        for (Parcel parcel : parcelIterable) {
-            parcels.add(parcel);
-        }
-        return parcels;
-    }
-*/
 
     @Autowired
     private CrudService crudService;

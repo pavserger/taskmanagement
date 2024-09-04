@@ -1,11 +1,9 @@
 package com.example.taskmanagement.model;
 
 import lombok.Data;
+import org.hibernate.annotations.LazyToOne;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 //@NoArgsConstructor
@@ -17,10 +15,15 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String family;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_role")
+    private Role role;
+
+//    private Long id_role;
     private String name;
-    private String lasName;
     private String phone;
     private String post;
+    private String pass;
+
 
 }

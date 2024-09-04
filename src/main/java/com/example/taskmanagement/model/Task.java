@@ -12,7 +12,7 @@ public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     // @Column(name = "landowner_id", insertable = false, updatable = false)
-    private Long id ;
+    private Long task_id ;
     //@ManyToOne
     //@JoinColumn(name = "user_id",nullable=false, updatable = false)
     //private User user;

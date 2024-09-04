@@ -25,15 +25,17 @@ public class CrudService {
         this.taskRepository = taskRepository;
     }
     public List<Role> getRolesList() {
-
          List<Role> lstRole;
         lstRole = roleRepository.findAll();;
-
         return roleRepository.findAll();
     }
 
     public void addRole(Role role) {
        roleRepository.save(role);
+    }
+    public void deleteRole(Long idRole) {
+        //Long l = (Long)idRole;
+        roleRepository.deleteById(idRole);
     }
 
 
@@ -41,18 +43,4 @@ public class CrudService {
         return userRepository.findAll();
     }
 
-
-/*
-    public Parcel getCompanyById(Long id) {
-        return crudRepository.findById(id).get();
-    }
-
-    public void saveOrUpdateCompany(Parcel parcel) {
-        crudRepository.save(parcel);
-    }
-
-    public void deleteCompany(Long id) {
-        crudRepository.deleteById(id);
-    }
-*/
 }

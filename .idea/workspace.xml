@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="03/09/24 roly">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7d8bbd7a-2f2b-4e61-b915-6a8bc5132ca5" name="Changes" comment="04/09/24 The roles are working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/CrudService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/TaskmanagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/TaskmanagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/RoleReposytory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/taskmanagement/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1717723019215</updated>
     </task>
+    <task id="LOCAL-00001" summary="04/09/24 The roles are working">
+      <created>1725450250280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725450250280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,17 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03/09/24 no repository in pom and no morphology" />
     <MESSAGE value="03/09/24 roly" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/09/24 roly" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/taskmanagement/controllers/RolesController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="04/09/24 The roles are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/09/24 The roles are working" />
   </component>
 </project>

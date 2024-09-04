@@ -11,7 +11,7 @@ public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id_role;
+    private Long id_role;
 
    // @ManyToOne(fetch = FetchType.LAZY)
    // @JoinColumn(name = "idrole")
